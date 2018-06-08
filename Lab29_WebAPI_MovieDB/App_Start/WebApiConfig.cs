@@ -15,7 +15,7 @@ namespace Lab29_WebAPI_MovieDB
             config.MapHttpAttributeRoutes();
 
             //this should not be included in final Lab 29 Submission
-            config.Formatters.Remove(config.Formatters.XmlFormatter);
+            //config.Formatters.Remove(config.Formatters.XmlFormatter);
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
